@@ -51,7 +51,7 @@ if st.button("AI 분석"):
         with st.spinner("AI가 분석하고 있습니다..."):
 
             response = client.models.generate_content(
-                model="gemini-3.7-flash",
+                model="gemini-3-flash-preview",
                 contents=prompt
             )
 
